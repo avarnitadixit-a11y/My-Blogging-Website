@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR+Guides&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
+.root {
+
+    --main-bg-color: brown;
+    --font-1: 'Roboto Flex', sans-serif;
+    --font-2: cursive;
+
+
+}
+.font-1{
+    font-family: var(--font-1);
+
+}
+.font-2{
+    font-family: var(--font-2);
+
+}
+
+.max-width-1 {
+max-width: 80vw;   
+}
+
+.max-width-2 {
+max-width: 70vw;
+
+}
+.m-auto {
+
+    margin: auto;
+}
+
+.my-2{
+margin-top: 12px;
+margin-bottom: 12px;
+
+}
+
+.btn{
+    padding: 8px 15px;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 16px;
+    font-family: var(--font-1);
+    padding-top: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+}
+
+
+.btn:hover{
+    color: rgb(245, 238, 238);
+    background-color: brown;
+
+}
+.form-input {
+    padding: 0px 5px;
+    padding-top: 3px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font-1);
+
+
+}
+.form-box input,textarea{
+
+    width: 52vw;
+    padding: 10px 6px;
+    margin: 7px 0;
+    font-size: 18px;
+    font-family: var(--font-1);
+    border: 3px solid rgb(5, 5, 108);
+    border-radius: 10px;
+}

@@ -1,0 +1,41 @@
+.contact-contentṣ {
+
+    min-height: 200px;
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+    position:relative
+
+}
+.content-.content-::before{
+    content: "";
+
+    position: absolute;
+
+    background-image: url("../img/home.svg");
+    background-repeat: no-repeat;
+    background-size: 500px;
+
+    width: 100%;
+    height: inherit;
+
+    left: 900px;
+    top: 20px;
+
+    opacity: 0.75;
+
+    z-index: 1;
+}
+
+.content-form{
+
+
+}
+.body{
+    background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh;
+
+
+}
